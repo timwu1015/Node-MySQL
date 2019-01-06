@@ -15,7 +15,7 @@ var connection = mysql.createConnection({
 connection.connect(function(err) {
     if(err) throw err;
     displayProducts();
-});
+}); 
 
 function displayProducts() {
     console.log("These are the products available: \n");
